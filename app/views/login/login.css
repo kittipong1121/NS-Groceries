@@ -1,0 +1,33 @@
+page{
+    background-color: orange;
+    border-width: 5;
+    border-color:brown;
+}
+
+TextField{
+    color: green;
+    background-color: snow;
+    font-size: 12;
+}
+.email{
+    color: blue;
+}
+
+Button{
+    color: green;
+}
+
+Label{
+    color: black;
+}
+.title{
+    color:snow;
+    text-align:center;
+    background-color: black;     
+}
+
+.txthead{
+    text-align:left;
+    color:darkblue;
+
+}

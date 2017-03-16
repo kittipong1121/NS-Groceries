@@ -1,0 +1,22 @@
+<Page loaded="loaded">
+<StackLayout orientation="vertical" width="90%">
+    <Label class="title" text="My Program By Kittipong" />
+    <Label class="txthead" text="Email" />
+    <TextField 
+        id="email"
+        hint="Yourname@Domain.com"
+        keyboardType="email"
+        autocorrect="false"
+        autocapitalizationType="none"
+        text="{{ email }}" />
+    <Label class="txthead" text="Password" />
+    <TextField
+        id="pass"
+        class="email"
+        hint="Password"
+        secure="true"
+        text="{{ pass }}" />
+    <Button text="เข้าสู่ระบบ" tap="chklogin" />
+    <Button text="ลงทะเบียน" tap="goregister" />
+</StackLayout>
+</Page>

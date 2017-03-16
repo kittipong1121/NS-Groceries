@@ -1,0 +1,7 @@
+<page actionBarHidden="actionBarHidden" loaded="loaded">
+    <StackLayout orientation="vertical" width="90%">
+        <!--<div class="elementToFadeInAndOut"></div>-->
+        <Image class="animationFadeIn" src="~/images/logo.png" stretch="none" horizontalAlignment="center" /> 
+        <Label text="คลิกเริ่มใช้งาน" tap="gologinpage" />
+    </StackLayout>
+</page>

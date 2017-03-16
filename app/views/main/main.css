@@ -1,0 +1,18 @@
+@keyframes fadein {
+  0%,50% { opacity:0; }
+  50% { opacity: 1; }  
+}
+.animationFadeIn {
+    animation: fadein 10s linear forwards;
+}
+
+page{
+  background-color: black;
+  /*border-color: darkorange;*/
+  border-width: 5;
+  align-content: center;
+  color: wheat;
+  size: 12;
+  text-align: center;
+}
+
